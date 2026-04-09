@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="top">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="門市通知設定"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvCurrentStore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="尚未設定門市名稱"
+        android:textSize="14sp"
+        android:textColor="#888888"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="門市名稱"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/etStoreName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="例如：台中文心店"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:background="@drawable/input_border"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="儲存並啟動通知"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="停止通知"
+        android:textSize="16sp"
+        android:backgroundTint="#EEEEEE"
+        android:textColor="#555555" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="通知會常駐在狀態列，顯示門市名稱與當日日期。\n重新開機後會自動恢復。"
+        android:textSize="12sp"
+        android:textColor="#AAAAAA"
+        android:layout_marginTop="32dp"
+        android:lineSpacingExtra="4dp" />
+
+</LinearLayout>
