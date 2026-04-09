@@ -3,6 +3,7 @@ plugins {
 }
 
 android {
+    namespace 'com.shopee.storenotify'
     compileSdk 34
 
     defaultConfig {
